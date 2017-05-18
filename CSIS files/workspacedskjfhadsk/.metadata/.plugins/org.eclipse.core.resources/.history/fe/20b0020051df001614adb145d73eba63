@@ -1,0 +1,36 @@
+// dince16@georgefox.edu
+// Program 1
+// 2017.01.20
+
+
+public class Circle
+{
+   // PROPERTIES
+   private double radius = 0.0;
+   // what happens when you don't specify public or private?
+   
+   
+   public Circle(double radius)
+   {
+      this.radius = radius;
+      
+   }
+   
+   // BEHAVIORS
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+   }
+
+}

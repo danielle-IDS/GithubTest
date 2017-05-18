@@ -1,0 +1,22 @@
+// dince16@georgefox.edu
+// Program 1
+// 2017.01.20
+
+
+public class Circle
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      
+      // PROPERTIES
+      public double radius = 0.0;
+      
+      
+      
+      // BEHAVIORS
+
+   }
+
+}

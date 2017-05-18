@@ -1,0 +1,41 @@
+import java.util.Scanner;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+public class ProgramOne
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      Scanner in = new Scanner(System.in);
+      System.out.print("Please enter your birth month: ");
+      int month = in.nextInt();
+      System.out.print("Please enter your birth day: ");
+      int day = in.nextInt();
+      System.out.print("Please enter your birth year: ");
+      int year = in.nextInt();
+      
+      GregorianCalendar cal = new GregorianCalendar(year, month, day);
+      int minimal = cal.getMinimalDaysInFirstWeek();
+      int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
+      int firstDayOfWeek = cal.getFirstDayOfWeek();
+      int month2 = cal.get(Calendar.MONTH);
+      int year2 = cal.get(Calendar.YEAR);
+      int weekDay = cal.get(Calendar.DAY_OF_WEEK);
+      
+      System.out.println(dayOfMonth);
+      System.out.println(month2);
+      System.out.println(year2);
+      System.out.println(weekDay);
+      System.out.println(firstDayOfWeek);
+      System.out.println(minimal);
+      
+      String[] weekdays = new String[7];
+      weekdays[0]= "Sunday";
+      weekdays[1] = "Monday";
+      weekdays[2] = "Tuesday";
+      weekdays[3] = "Wednesday";
+      weekdays[4] = "Thursday";
+   }
+
+}

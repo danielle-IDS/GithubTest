@@ -1,0 +1,49 @@
+
+public class Car
+{
+   private double _mpg;
+   private double _fuelInTank;
+   private double _odometer;
+   private int _fuelCapacity;
+   
+   public Car()
+   {
+      _mpg = 0.0;
+      _fuelInTank = 0.0;
+      _odometer = 0.0;
+      _fuelCapacity = 0;
+   }
+   
+   public Car(double mpg, int capacity, double odometer)
+   {
+      this._mpg = mpg;
+      this._fuelCapacity = capacity;
+      this._odometer = odometer;
+      this._fuelInTank = 0;
+   }
+   
+   public void addGas(double gallons)
+   {
+      this._fuelInTank += gallons;
+   }
+   
+   public void fillUp()
+   {
+      this._fuelInTank = this._fuelCapacity;
+   }
+   
+   public void drive(double miles)
+   {
+      // update odometer
+      // update fuel amount
+   }
+   
+   public 
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+
+   }
+
+}

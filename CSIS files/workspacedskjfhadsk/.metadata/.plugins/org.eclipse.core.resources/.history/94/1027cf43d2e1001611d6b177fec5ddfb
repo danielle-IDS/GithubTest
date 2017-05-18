@@ -1,0 +1,24 @@
+// 1.18.17
+
+
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+public class Notes
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      // Ex. shape - properties
+      //    radius, circumfirence, angle, sides, area, perimeter
+      Calendar cal = new GregorianCalendar(1, 2, 2016);
+      int day = cal.getFirstDayOfWeek();
+      System.out.println(day);
+      
+      System.out.println(cal.get(cal.DAY_OF_WEEK));
+      System.out.println("WEEK_OF_MONTH: " + cal.get(cal.WEEK_OF_MONTH));
+      
+
+   }
+
+}

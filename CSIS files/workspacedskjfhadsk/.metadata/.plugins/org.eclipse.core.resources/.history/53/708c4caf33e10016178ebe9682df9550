@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.GregorianCalendar;
+public class ProgramOne
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      Scanner in = new Scanner(System.in);
+      System.out.print("Please enter your birth month: ");
+      int month = in.nextInt();
+      System.out.print("Please enter your birth day: ");
+      int day = in.nextInt();
+      System.out.print("Please enter your birth year: ");
+      int year = in.nextInt();
+      
+      GregorianCalendar cal = new GregorianCalendar(year, month, day);
+      int dayOfWeek = cal.get(cal.DAY_OF_WEEK);
+      
+      System.out.print(dayOfWeek);
+      
+
+   }
+
+}

@@ -1,0 +1,43 @@
+import java.util.Scanner;
+import java.util.GregorianCalendar;
+public class ProgramOne
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      Scanner in = new Scanner(System.in);
+      System.out.print("Please enter your birth month: ");
+      int month = in.nextInt();
+      System.out.print("Please enter your birth day: ");
+      int day = in.nextInt();
+      System.out.print("Please enter your birth year: ");
+      int year = in.nextInt();
+      
+      GregorianCalendar cal = new GregorianCalendar(year, month, day);
+      int dayOfWeek = cal.DAY_OF_WEEK;
+      if (dayOfWeek == 1)
+      {
+         System.out.println("You were born on a Sunday");
+      }
+      if (dayOfWeek == 2)
+      {
+         System.out.println("You were born on a Monday");
+      }
+      if (dayOfWeek == 3)
+      {
+         System.out.println("You were born on a Tuesday");
+      }
+      if (dayOfWeek == 4)
+      {
+         System.out.println("You were born on a Wednesday");
+      }
+      
+      
+      
+      System.out.print(dayOfWeek);
+      
+
+   }
+
+}

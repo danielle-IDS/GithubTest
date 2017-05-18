@@ -1,0 +1,20 @@
+// 1.18.17
+
+
+import java.util.GregorianCalendar;
+public class Notes
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      // Ex. shape - properties
+      //    radius, circumfirence, angle, sides, area, perimeter
+      GregorianCalendar cal = new GregorianCalendar(1, 23, 2017);
+      int day = cal.getFirstDayOfWeek();
+      System.out.println(day);
+      
+
+   }
+
+}

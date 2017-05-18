@@ -1,0 +1,13 @@
+// 1.18.17
+public class Notes
+{
+
+   public static void main(String[] args)
+   {
+      // TODO Auto-generated method stub
+      // Ex. shape - properties
+      //    radius, circumfirence, angle, sides, area, perimeter
+
+   }
+
+}
